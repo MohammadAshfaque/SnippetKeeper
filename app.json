@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "SnippetKeeper",
+    "slug": "snippetkeeper",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "scheme": "snippetkeeper",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.snippetkeeper.app",
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "SnippetKeeper lets you attach screenshots to your saved snippets."
+      }
+    },
+    "android": {
+      "package": "com.snippetkeeper.app",
+      "predictiveBackGestureEnabled": true
+    },
+    "plugins": [
+      "expo-sqlite",
+      "expo-secure-store",
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "SnippetKeeper lets you attach screenshots to snippets."
+        }
+      ]
+    ],
+    "extra": {
+      "expoSdk": "54"
+    }
+  }
+}
