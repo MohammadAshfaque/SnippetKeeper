@@ -2,6 +2,9 @@
 
 SnippetKeeper is an offline-first Expo SDK 54 mobile app for saving, organizing, exporting, and understanding reusable code snippets directly on a device.
 
+# Demo video Link 
+https://youtube.com/shorts/BjfNZeDQKSg?si=Jnd071U4Bhu9NcXR
+
 ## Tech Stack
 
 - Expo SDK 54
@@ -28,6 +31,28 @@ SnippetKeeper is an offline-first Expo SDK 54 mobile app for saving, organizing,
 - Store app preferences in AsyncStorage
 - Store AI API keys securely in SecureStore
 - Generate AI explanations, summaries, and improvement suggestions with any OpenAI-compatible chat endpoint
+
+## Screenshots
+
+### Home
+
+![Snippet library home screen](screenshots/home.jpg)
+
+### Create Snippet
+
+![Create snippet screen](screenshots/create-snippet.jpg)
+
+### Favorites
+
+![Favorites screen](screenshots/favorites.jpg)
+
+### File Manager
+
+![File manager screen](screenshots/file-manager.jpg)
+
+### Settings
+
+![Settings screen](screenshots/settings.jpg)
 
 ## Run Locally
 
